@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 70rem; /*largura maxima*/
+  margin: 2rem auto;/*encima e embaixo, laterais como auto*/
+  padding: 0 1rem;/*isso vai fazer quando eu diminua a tela o conteudo não fique colado na tela, espacamento lateral */
+
+  display: grid;/*divide em duas telas*/
+  grid-template-columns: 256px 1fr;/*primeira coluna largura de 256px, esse vai se adaptar enquanto couber na tela*/
+  gap: 2rem;/*espaçamento entre as colunas */
+  align-items: flex-start;/*vai fazer que sempre fique alinhados para o topo*/
+}

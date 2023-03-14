@@ -1,0 +1,11 @@
+.header{
+  background: var(--gray-800);/*cor de fundo do cabeçario*/
+  display: flex;/*vai deixar ele flexivel*/
+  justify-content: center;/*vai centralizar verticalmente e horizontalmente*/
+  padding: 1.25rem 0; /*1.25em cima e em baixo, 0 para os lados*/
+}
+
+.header img{
+  height: 2rem;/*altura da imagem*/
+  
+}
